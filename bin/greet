@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
-
-# code your CLI here!
+puts "Welcome friend. I mean you no harm."
+puts "Tell me your name so I can store you in my databrain:"
+name = gets.strip
+greeting(name)
