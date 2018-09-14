@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
-puts "Welcome friend. I mean you no harm."
-puts "Tell me your name so I can store you in my databrain:"
+puts "Hi! I'm HAL, what's your name?:"
 name = gets.strip
 greeting(name)
